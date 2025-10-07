@@ -5,6 +5,7 @@ import MainHeader from "@/features/main-header/components/MainHeader";
 import { initColorTheme } from "@/utils/theme";
 
 import "@/styles/globals.css";
+import Footer from "@/features/footer/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
       >
         <MainHeader />
         {children}
+        <Footer/>
       </body>
     </html>
   );

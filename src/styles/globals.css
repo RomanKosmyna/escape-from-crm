@@ -12,40 +12,11 @@
   --foreground: white;
 }
 
-/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
-
 @theme {
-  --color-default-background: #ededed;
-  --color-dark-background: #0a0a0a;
-} */
-/*
-:root {
-  --main-background: #ededed;
+  --blue-1-value: #0d3868;
+  --blue-2-value: #0072f5;
 }
-
-html[data-theme="dark"] {
-    --main-background: #0a0a0a;
-  } */
-
-/* @theme {
-  --color-main-background: #ededed;
-}
-
-@theme inline {
-  --color-main-background: light-dark(var(--color-foo-50), var(--color-main-background));
-} */
-
-/* [data-theme='white'] {
-  --main-background: #ededed;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* #393E46 - grey */
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
